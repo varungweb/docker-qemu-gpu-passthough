@@ -95,3 +95,8 @@ services:
     stop_grace_period: 2m
     restart: on-failure
 ```
+
+```
+sudo nmcli connection modify "Wired connection 1" 802-3-ethernet.wake-on-lan magic
+
+```
